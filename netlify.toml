@@ -1,0 +1,18 @@
+[[redirects]]
+  from = "/history/USD_KRW_history.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/main/history/USD_KRW_history.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/USD_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/USD_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
