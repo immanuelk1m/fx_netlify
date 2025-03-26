@@ -104,6 +104,111 @@
   headers = {Access-Control-Allow-Origin = "*"}
 
 [[redirects]]
+  from = "/data/AUD_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/AUD_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/CAD_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/CAD_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/CHF_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/CHF_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/CNY_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/CNY_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/EUR_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/EUR_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/GBP_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/GBP_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/HKD_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/HKD_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/JPY_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/JPY_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/NZD_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/NZD_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/PHP_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/PHP_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/PLN_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/PLN_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/SGD_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/SGD_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/THB_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/THB_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/TWD_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/TWD_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
+  from = "/data/VND_KRW.json"
+  to = "https://raw.githubusercontent.com/immanuelk1m/fx_history_updater/refs/heads/main/data/VND_KRW.json"
+  status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
