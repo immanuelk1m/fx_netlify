@@ -8,14 +8,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 2rem;
   font-size: calc(10px + 1vmin);
   color: white;
+}
+
+.App-header h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #61dafb;
 }
 
 .App-header ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.App-header li {
+  margin: 0.25rem;
 }
 
 .App-header code {
@@ -24,4 +41,5 @@
   border-radius: 4px;
   margin: 5px 0;
   display: inline-block;
+  font-size: 0.9em;
 }
